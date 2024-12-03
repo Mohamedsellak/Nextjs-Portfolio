@@ -4,15 +4,6 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { projects } from '@/app/data/projects';
 
-interface Project {
-  id: number;
-  title: string;
-  description: string;
-  technologies: string[];
-  liveLink?: string;
-  githubLink?: string;
-  images: string[];
-}
 
 interface ProjectModalProps {
   projectId: number | null;
