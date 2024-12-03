@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Home() {
   return (
     <section id="home">
@@ -11,7 +9,7 @@ export default function Home() {
         <iframe src="https://my.spline.design/cybernetichuman-b472d7d3ddd0b994e6f235f35e314d81/" frameBorder="0" className="h-full w-full"></iframe>
     
         <div className="absolute text-white text-center font-bold mx-3">
-            <h3 className="lg:text-xl md:text-lg text-base">Hello, I'm</h3>
+            <h3 className="lg:text-xl md:text-lg text-base">Hello, I&apos;m</h3>
             <h1 className="lg:text-7xl md:text-6xl text-6xl mb-2">Mohammed Sellak</h1>
             <h3 className="lg:text-xl md:text-lg text-base">Full Stack Developer | AI & Data Scientist</h3>
     

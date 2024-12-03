@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 export default function About() {
   return (
@@ -10,7 +11,7 @@ export default function About() {
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Image Container */}
           <div className="flex justify-center">
-            <img
+            <Image
               src="/images/about.png"
               className="rounded-lg h-auto max-h-72 w-auto object-cover"
               alt="About Me"
@@ -42,7 +43,7 @@ export default function About() {
 
             {/* Description */}
             <p className="text-left text-base sm:text-lg leading-relaxed">
-              I'm Mohammed Sellak, FullStack Developer, I create Web Applications & Web Pages With UI / UX Interfaces, 
+              I&apos;m Mohammed Sellak, FullStack Developer, I create Web Applications & Web Pages With UI / UX Interfaces, 
               i have Years OF Experience And Many Clients Are Happy With The Projects Carried Out
             </p>
 
