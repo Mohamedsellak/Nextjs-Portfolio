@@ -15,6 +15,8 @@ export default function About() {
               src="/images/about.png"
               className="rounded-lg h-auto max-h-72 w-auto object-cover"
               alt="About Me"
+              width={500}
+              height={500}
             />
           </div>
 
@@ -48,7 +50,7 @@ export default function About() {
             </p>
 
             {/* Contact Button */}
-            <div className="text-left">
+            <div className="text-center">
               <a 
                 href="#contact" 
                 className="inline-block rounded-lg bg-purple-700 px-6 py-3 text-sm sm:text-base font-medium transition-colors hover:bg-purple-600 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2"
