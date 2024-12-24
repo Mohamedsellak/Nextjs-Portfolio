@@ -23,14 +23,14 @@ export default function Home() {
       {isLoading && <Loader />}
       
       <section id="home" className={isLoading ? 'opacity-0' : 'opacity-100 transition-opacity duration-500'}>
-        <div className="w-screen h-screen">
+{/*         <div className="w-screen h-screen">
           <iframe 
             src="https://my.spline.design/humanmachine-02a6d7b1c0adaf9ce8a708fe8c0ae372/" 
             frameBorder="0" 
             className="w-screen h-screen"
             onLoad={() => setFirstModelLoaded(true)}
           />
-        </div>
+        </div> */}
 
         <div className="w-screen h-screen relative flex items-center justify-center mt-8">
           <iframe 
