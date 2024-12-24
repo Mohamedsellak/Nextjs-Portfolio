@@ -47,7 +47,7 @@ export default function About() {
             {/* Description */}
             <div className="bg-gray-950 p-6 rounded-lg border-l-4 border-l-purple-700">
               <p className="text-left text-base sm:text-lg leading-relaxed">
-                I'm <span className="text-purple-400 font-semibold">Mohammed Sellak</span>, a versatile Full Stack Developer 
+                I&apos;m <span className="text-purple-400 font-semibold">Mohammed Sellak</span>, a versatile Full Stack Developer 
                 with expertise in <span className="text-purple-400">Artificial Intelligence</span> and 
                 <span className="text-purple-400"> Data Science</span>. I create intelligent web applications that combine 
                 modern UI/UX with advanced AI capabilities, delivering innovative solutions that drive real business value.
@@ -60,7 +60,7 @@ export default function About() {
                 href="#contact" 
                 className="inline-flex items-center px-8 py-3 text-sm font-medium text-white bg-purple-700 rounded-lg hover:bg-purple-600 transition-all duration-300 group"
               >
-                Let's Build Something Intelligent
+                Let&apos;s Build Something Intelligent
                 <svg className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                 </svg>
