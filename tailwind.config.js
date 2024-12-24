@@ -7,41 +7,25 @@ module.exports = {
   ],
   theme: {
     extend: {
-
-      keyframes: {
-        spin: {
-          '0%': { transform: 'rotate(0deg)' },
-          '100%': { transform: 'rotate(360deg)' }
-        },
-        progressBar: {
-          '0%': { transform: 'translateX(-100%)' },
-          '50%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(100%)' }
-        },
-        pulse: {
-          '0%, 100%': { opacity: 1 },
-          '50%': { opacity: 0.5 }
-        },
-        bounce: {
-          '0%, 100%': {
-            transform: 'translateY(-25%)',
-            animationTimingFunction: 'cubic-bezier(0.8, 0, 1, 1)'
-          },
-          '50%': {
-            transform: 'translateY(0)',
-            animationTimingFunction: 'cubic-bezier(0, 0, 0.2, 1)'
-          }
-        }
-      },
       animation: {
-        'spin': 'spin 1s linear infinite',
-        'progressBar': 'progressBar 2s ease-in-out infinite',
-        'pulse': 'pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite',
-        'bounce': 'bounce 1s infinite'
+        fadeIn: 'fadeIn 1s ease-in',
+        slideDown: 'slideDown 1s ease-out',
+        slideUp: 'slideUp 1s ease-out',
       },
-      backdropBlur: {
-        md: '12px'
-      }
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+        slideDown: {
+          '0%': { transform: 'translateY(-20px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+        slideUp: {
+          '0%': { transform: 'translateY(20px)', opacity: '0' },
+          '100%': { transform: 'translateY(0)', opacity: '1' },
+        },
+      },
     },
   },
   plugins: [],
