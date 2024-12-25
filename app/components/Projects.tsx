@@ -100,7 +100,7 @@ export default function Projects() {
                                         <span className="px-2.5 py-1 text-xs text-gray-400">
                                             +{project.technologies.length - 3}
                                         </span>
-                                    )} ...
+                                    )}
                                 </div>
 
                                 {/* Action Button */}
