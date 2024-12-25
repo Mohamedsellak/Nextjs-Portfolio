@@ -25,19 +25,19 @@ export default function About() {
           <div className="space-y-10">
             {/* Stats Grid */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="bg-gray-950 border-l-purple-700 border-l-4 p-5 rounded-lg hover:bg-gray-800 transition-colors duration-300">
+              <div className="bg-gray-800/50 border-l-purple-700 border-l-4 p-5 rounded-lg hover:bg-gray-800 transition-colors duration-300">
                 <i className="fas fa-award text-purple-700 text-2xl mb-3"></i>
                 <h3 className="font-bold text-lg">Experience</h3>
                 <span className="text-purple-300">1 Year</span>
               </div>
 
-              <div className="bg-gray-950 border-l-purple-700 border-l-4 p-5 rounded-lg hover:bg-gray-800 transition-colors duration-300">
+              <div className="bg-gray-800/50 border-l-purple-700 border-l-4 p-5 rounded-lg hover:bg-gray-800 transition-colors duration-300">
                 <i className="fas fa-briefcase text-purple-700 text-2xl mb-3"></i>
                 <h3 className="font-bold text-lg">Projects</h3>
                 <span className="text-purple-300">10+ Done</span>
               </div>
 
-              <div className="bg-gray-950 border-l-purple-700 border-l-4 p-5 rounded-lg hover:bg-gray-800 transition-colors duration-300">
+              <div className="bg-gray-800/50 border-l-purple-700 border-l-4 p-5 rounded-lg hover:bg-gray-800 transition-colors duration-300">
                 <i className="fas fa-headset text-purple-700 text-2xl mb-3"></i>
                 <h3 className="font-bold text-lg">Support</h3>
                 <span className="text-purple-300">24/7 Online</span>
@@ -45,7 +45,7 @@ export default function About() {
             </div>
 
             {/* Description */}
-            <div className="bg-gray-950 p-6 rounded-lg border-l-4 border-l-purple-700">
+            <div className="bg-gray-800/50 p-6 rounded-lg border-l-4 border-l-purple-700">
               <p className="text-left text-base sm:text-lg leading-relaxed">
                 I&apos;m <span className="text-purple-400 font-semibold">Mohammed Sellak</span>, a versatile Full Stack Developer 
                 with expertise in <span className="text-purple-400">Artificial Intelligence</span> and 

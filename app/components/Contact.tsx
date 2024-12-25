@@ -11,7 +11,7 @@ export default function Contact() {
               <h3 className="font-bold text-xl mb-10">Talk To Me</h3>
 
               <div className="flex items-center justify-center flex-col gap-3">
-                  <div className="w-full rounded-lg bg-gr-950 border-b-purple-700 border-b-4  p-8">
+                  <div className="w-full rounded-lg bg-gray-800/50 border-b-purple-700 border-b-4  p-8">
                       <i className="fas fa-envelope text-2xl"></i>
 
                       <h3 className="font-bold text-xl">Email</h3>
@@ -23,7 +23,7 @@ export default function Contact() {
                       </a>
                   </div>
 
-                  <div className="w-full rounded-lg bg-gray-950 border-b-purple-700 border-b-4  p-8">
+                  <div className="w-full rounded-lg bg-gray-800/50 border-b-purple-700 border-b-4  p-8">
                       <i className="fa-brands fa-whatsapp text-2xl"></i>
 
                       <h3 className="font-bold text-xl">WhatsApp</h3>
@@ -35,7 +35,7 @@ export default function Contact() {
                       </a>
                   </div>
 
-                  <div className="w-full rounded-lg bg-gr-950 border-b-purple-700 border-b-4  p-8">
+                  <div className="w-full rounded-lg bg-gray-800/50 border-b-purple-700 border-b-4  p-8">
                       <i className="fa-brands fa-linkedin text-2xl"></i>
 
                       <h3 className="font-bold text-xl">Linkedin</h3>
