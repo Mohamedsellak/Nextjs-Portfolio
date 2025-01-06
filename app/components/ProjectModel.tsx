@@ -13,17 +13,20 @@ interface ProjectModalProps {
 
 export default function ProjectModal({ projectId, isOpen, onClose }: ProjectModalProps) {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
+  const [imageLoading, setImageLoading] = useState(true);
 
   const project = projectId ? projects.find(p => p.id === projectId) : null;
 
   const nextImage = () => {
     if (project) {
+      setImageLoading(true);
       setCurrentImageIndex((prev) => (prev + 1) % project.images.length);
     }
   };
 
   const prevImage = () => {
     if (project) {
+      setImageLoading(true);
       setCurrentImageIndex((prev) => (prev - 1 + project.images.length) % project.images.length);
     }
   };
@@ -58,13 +61,19 @@ export default function ProjectModal({ projectId, isOpen, onClose }: ProjectModa
             {project.images.length > 0 && (
               <div className="relative bg-gray-900/90">
                 <div className="relative h-[50vh] flex items-center justify-center p-2">
+                  {imageLoading && (
+                    <div className="absolute inset-0 flex items-center justify-center bg-gray-900/50">
+                      <div className="w-8 h-8 border-4 border-gray-300 border-t-purple-500 rounded-full animate-spin"></div>
+                    </div>
+                  )}
                   <Image
                     src={`/images/projects${project.images[currentImageIndex]}`}
                     alt={`${project.title} preview ${currentImageIndex + 1}`}
                     className="max-w-full max-h-full w-auto h-auto object-contain"
                     width={1200}
                     height={800}
-                    priority
+                    loading="lazy"
+                    onLoadingComplete={() => setImageLoading(false)}
                   />
                   {project.images.length > 1 && (
                     <>

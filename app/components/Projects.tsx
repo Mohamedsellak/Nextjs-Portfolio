@@ -50,7 +50,7 @@ export default function Projects() {
 
                 {/* Projects Grid */}
                 <div className="grid xl:grid-cols-5 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6 lg:mx-24 md:mx-16">
-                    {filteredProjects.map((project) => (
+                    {filteredProjects.reverse().map((project) => (
                         <div
                             key={project.id}
                             className="group relative bg-gray-900/30 backdrop-blur-sm rounded-xl 
