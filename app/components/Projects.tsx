@@ -124,7 +124,7 @@ export default function Projects() {
                     <>
                         {/* Professional Projects Grid */}
                         <div className="grid xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-6 mb-12">
-                            {filteredProjects.slice(0, visibleProjects).reverse().map((project) => (
+                            {filteredProjects.slice(0, visibleProjects).map((project) => (
                                 <div
                                     key={project.id}
                                     className="group relative bg-white/[0.02] border border-white/[0.05] 

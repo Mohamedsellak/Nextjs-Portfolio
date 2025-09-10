@@ -16,7 +16,7 @@ export const projects: Project[] = [
         description: "A comprehensive real-time cybersecurity platform that monitors dark web activities, data breaches, and vulnerabilities. Provides complete digital risk visibility for organizations with advanced threat intelligence and automated incident response capabilities.",
         technologies: ["PHP", "Next.js", "Tailwind CSS", "REST API", "MySQL", "JavaScript", "HTML5", "CSS3"],
         category: "cybersecurity",
-        liveLink: "https://scan.cyberxradar.com/",
+        liveLink: "https://scan.pentest.com/",
         githubLink: "https://github.com/Mohamedsellak/cyber-x-radar",
         images: [
             "/cyberxradar/1.png",
@@ -41,6 +41,37 @@ export const projects: Project[] = [
             "/cyberxradar/20.png"
         ]
     },
+
+        {
+            id: 2,
+            title: "Pentest GPT – AI-Powered Pentesting Platform",
+            description: "Developed an AI-powered pentesting web application leveraging LLaMA 3, fine-tuned on cybersecurity data, to automate website scans and analyze vulnerabilities. Delivered intelligent recommendations and actionable guidance, helping users remediate security issues efficiently. Integrated a chat-based interface for real-time interaction and consultation on security findings.",
+            technologies: ["Next.js", "Node.js", "Express.js", "Tailwind CSS", "MongoDB", "Linux pentest tools", "LLaMA 3", "AI/ML"],
+            category: "cybersecurity",
+            liveLink: "https://scan.pentest.com/ai-gpt",
+            githubLink: "https://github.com/Mohamedsellak/pentest-gpt",
+            images: [
+                "/pentest/1.png",
+                "/pentest/2.png",
+                "/pentest/3.png",
+                "/pentest/4.png",
+                "/pentest/5.png",
+                "/pentest/6.png",
+                "/pentest/7.png",
+                "/pentest/8.png",
+                "/pentest/9.png",
+                "/pentest/10.png",
+                "/pentest/11.png",
+                "/pentest/12.png",
+                "/pentest/13.png",
+                "/pentest/14.png",
+                "/pentest/15.png",
+                "/pentest/16.png",
+                "/pentest/17.png",
+                "/pentest/18.png"
+            ]
+        },
+
     {
         id: 2,
         title: "Edufacilita – AI-Powered Math Learning Platform",
