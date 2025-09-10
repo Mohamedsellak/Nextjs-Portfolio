@@ -100,30 +100,31 @@ export default function Home() {
             />
           </div>
           
-          <div className="space-y-6 md:space-y-0 md:space-x-6 animate-fadeIn delay-500">
+          <div className="flex flex-col md:flex-row gap-4 md:gap-6 justify-center items-center animate-fadeIn delay-500">
             <a 
-              download="" 
-              href="./assets/cv/cv.pdf" 
-              className="inline-block bg-transparent backdrop-blur-sm border-2 border-purple-500 rounded-full text-purple-100 px-8 py-3.5 hover:bg-purple-500/20 hover:border-purple-400 hover:text-white transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-purple-500/25 relative overflow-hidden group"
+              href="./cv/Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-48 inline-flex justify-center items-center bg-transparent backdrop-blur-sm border-2 border-purple-500 rounded-full text-purple-100 px-8 py-3.5 font-medium hover:bg-purple-500/20 hover:border-purple-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-400 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-purple-500/25 relative overflow-hidden group text-base md:text-lg"
             >
-              <span className="relative z-10 font-medium">Download CV</span>
+              <span className="relative z-10">Download CV</span>
               <div className="absolute inset-0 bg-gradient-to-r from-purple-600/20 to-purple-800/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
             </a>
             <a 
               href="#about" 
-              className="inline-block rounded-full bg-gradient-to-r from-purple-600 to-purple-800 px-8 py-3.5 font-medium hover:from-purple-700 hover:to-purple-900 text-white transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-purple-600/50 relative overflow-hidden group"
+              className="w-48 inline-flex justify-center items-center rounded-full bg-gradient-to-r from-purple-600 to-purple-800 px-8 py-3.5 font-medium hover:from-purple-700 hover:to-purple-900 text-white focus:outline-none focus:ring-2 focus:ring-purple-400 transition-all duration-300 transform hover:scale-105 hover:-translate-y-1 shadow-lg hover:shadow-purple-600/50 relative overflow-hidden group text-base md:text-lg"
             >
               <span className="relative z-10">About Me</span>
               <div className="absolute inset-0 bg-gradient-to-r from-purple-400/20 to-purple-600/20 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
             </a>
           </div>
 
-          <div className="mt-12 flex justify-center space-x-6 animate-fadeIn delay-700">
+          <div className="mt-12 flex justify-center gap-6 animate-fadeIn delay-700">
             <a 
               href="https://github.com/yourusername" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-purple-200 hover:text-purple-400 transition-colors duration-300"
+              className="flex items-center justify-center w-12 h-12 rounded-full bg-purple-900/30 hover:bg-purple-700/40 text-purple-200 hover:text-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-400 transition-colors duration-300 shadow-md"
             >
               <FaGithub size={28} />
             </a>
@@ -131,7 +132,7 @@ export default function Home() {
               href="https://linkedin.com/in/yourusername" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-purple-200 hover:text-purple-400 transition-colors duration-300"
+              className="flex items-center justify-center w-12 h-12 rounded-full bg-purple-900/30 hover:bg-purple-700/40 text-purple-200 hover:text-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-400 transition-colors duration-300 shadow-md"
             >
               <FaLinkedin size={28} />
             </a>
@@ -139,7 +140,7 @@ export default function Home() {
               href="https://twitter.com/yourusername" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-purple-200 hover:text-purple-400 transition-colors duration-300"
+              className="flex items-center justify-center w-12 h-12 rounded-full bg-purple-900/30 hover:bg-purple-700/40 text-purple-200 hover:text-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-400 transition-colors duration-300 shadow-md"
             >
               <FaTwitter size={28} />
             </a>

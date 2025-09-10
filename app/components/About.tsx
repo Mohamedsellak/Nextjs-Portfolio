@@ -12,11 +12,11 @@ export default function About() {
           {/* Image Container */}
           <div className="flex justify-center">
               <Image
-                src="/images/about.png"
-                className="relative rounded-lg h-auto max-h-80 w-auto object-cover"
+                src="/images/profile.jpeg"
+                className="relative rounded-full h-80 w-80 object-cover shadow-2xl shadow-purple-500/20"
                 alt="Mohammed Sellak - Full Stack & AI Developer"
-                width={500}
-                height={500}
+                width={320}
+                height={320}
                 priority
               />
           </div>
@@ -42,15 +42,12 @@ export default function About() {
                 <h3 className="font-bold text-lg">Support</h3>
                 <span className="text-purple-300">24/7 Online</span>
               </div>
-            </div>
+            </div>  
 
             {/* Description */}
             <div className="bg-gray-800/50 p-6 rounded-lg border-l-4 border-l-purple-700">
               <p className="text-left text-base sm:text-lg leading-relaxed">
-                I&apos;m <span className="text-purple-400 font-semibold">Mohammed Sellak</span>, a versatile Full Stack Developer 
-                with expertise in <span className="text-purple-400">Artificial Intelligence</span> and 
-                <span className="text-purple-400"> Data Science</span>. I create intelligent web applications that combine 
-                modern UI/UX with advanced AI capabilities, delivering innovative solutions that drive real business value.
+                Full Stack Developer with expertise in <span className="text-purple-400">AI</span>, <span className="text-purple-400">Cybersecurity</span>, and <span className="text-purple-400">Digital Transformation</span>. Skilled in building scalable, user-friendly web and AI-driven solutions across academic, enterprise, and research environments, with a proven record of delivering projects that enhance efficiency, security, and innovation.
               </p>
             </div>
 
