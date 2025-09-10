@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import './skills.css'
 
 type StyleWithVar = React.CSSProperties & { '--time': string };
 
@@ -89,26 +89,24 @@ export default function Skills() {
 
           <div className="scroll imgBox" style={{ '--time': '30s' } as StyleWithVar}>
             <div>
-                <img src="/" alt=""/>
-                <img src="/images/1.png" alt=""/>
-                <img src="/images/2.png" alt=""/>
-                <img src="/images/3.png" alt=""/>
-                <img src="/images/4.png" alt=""/>
-                <img src="/images/5.png" alt=""/>
-                <img src="/images/6.png" alt=""/>
-                <img src="/images/7.png" alt=""/>
-                <img src="/images/8.png" alt=""/>
+                <img src="/images/1.png" alt="Technology 1"/>
+                <img src="/images/2.png" alt="Technology 2"/>
+                <img src="/images/3.png" alt="Technology 3"/>
+                <img src="/images/4.png" alt="Technology 4"/>
+                <img src="/images/5.png" alt="Technology 5"/>
+                <img src="/images/6.png" alt="Technology 6"/>
+                <img src="/images/7.png" alt="Technology 7"/>
+                <img src="/images/8.png" alt="Technology 8"/>
             </div>
             <div>
-                <img src="/" alt=""/>
-                <img src="/images/9.png" alt=""/>
-                <img src="/images/10.png" alt=""/>
-                <img src="/images/11.png" alt=""/>
-                <img src="/images/12.png" alt=""/>
-                <img src="/images/13.png" alt=""/>
-                <img src="/images/14.png" alt=""/>
-                <img src="/images/15.png" alt=""/>
-                <img src="/images/16.png" alt=""/>
+                <img src="/images/9.png" alt="Technology 9"/>
+                <img src="/images/10.png" alt="Technology 10"/>
+                <img src="/images/11.png" alt="Technology 11"/>
+                <img src="/images/12.png" alt="Technology 12"/>
+                <img src="/images/13.png" alt="Technology 13"/>
+                <img src="/images/14.png" alt="Technology 14"/>
+                <img src="/images/15.png" alt="Technology 15"/>
+                <img src="/images/16.png" alt="Technology 16"/>
             </div>
           </div>
         </div>
