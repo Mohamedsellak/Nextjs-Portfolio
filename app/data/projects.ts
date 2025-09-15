@@ -73,7 +73,7 @@ export const projects: Project[] = [
         },
 
     {
-        id: 2,
+        id: 3,
         title: "Edufacilita – AI-Powered Math Learning Platform",
         description: "Revolutionary educational platform featuring 5,000+ AI-curated mathematics questions with advanced search capabilities and LaTeX rendering. Currently used by educators across 50+ countries, providing personalized learning experiences and comprehensive analytics.",
         technologies: ["Laravel", "PHP", "MathJax", "LaTeX", "MathType", "MySQL", "JavaScript", "Tailwind CSS"],
@@ -99,7 +99,7 @@ export const projects: Project[] = [
         ]
     },
     {
-        id: 3,
+        id: 4,
         title: "AI Translator - Go Translate",
         description: "Comprehensive AI-powered translation application supporting 100+ languages. Features voice translation, image text recognition, document translation, and real-time conversation mode. Built with advanced machine learning for accurate and contextual translations.",
         technologies: ["Swift", "iOS SDK", "Core ML", "Vision API", "Speech Recognition", "Google Translate API"],
@@ -116,7 +116,7 @@ export const projects: Project[] = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         title: "NextTrade - Advanced Trading Platform",
         description: "Professional cryptocurrency and stock trading platform with real-time market data, advanced charting tools, portfolio management, and automated trading strategies. Features secure transactions, multi-wallet support, and comprehensive analytics dashboard.",
         technologies: ["Next.js", "TypeScript", "Node.js", "WebSocket", "MongoDB", "Redis", "Chart.js", "Crypto Payment API"],
@@ -144,7 +144,7 @@ export const projects: Project[] = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         title: "Mr. Basit's Authentic Moroccan Crafts",
         description: "Premium e-commerce platform showcasing authentic Moroccan handicrafts and traditional artistry. Features secure payment processing, inventory management, international shipping, and cultural storytelling to connect customers with Moroccan heritage.",
         technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "MongoDB", "Node.js"],
@@ -160,7 +160,7 @@ export const projects: Project[] = [
         ]
     },
     {
-        id: 6,
+        id: 7,
         title: "TechStore - Premium Technology Marketplace",
         description: "Sophisticated French e-commerce platform specializing in premium technology products. Serves 50,000+ satisfied customers across 15+ countries with 24/7 support. Features advanced product filtering, AR product visualization, and comprehensive customer service system.",
         technologies: ["Next.js", "Supabase", "PostgreSQL", "Tailwind CSS", "TypeScript", "Stripe API"], 

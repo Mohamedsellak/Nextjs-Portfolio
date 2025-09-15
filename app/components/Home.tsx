@@ -11,6 +11,10 @@ export default function Home() {
     const initParticles = async () => {
       await loadSlim(tsParticles);
       
+      // Check if it's a mobile device
+      const isMobile = window.innerWidth < 768;
+      const isSmall = window.innerWidth < 640;
+      
       await tsParticles.load({
         id: "tsparticles",
         options: {
@@ -25,23 +29,23 @@ export default function Home() {
             },
             links: {
               color: "#9333ea",
-              distance: 150,
+              distance: isSmall ? 110 : isMobile ? 120 : 150,
               enable: true,
-              opacity: 0.5,
-              width: 2.5,
+              opacity: isSmall ? 0.4 : isMobile ? 0.4 : 0.5,
+              width: isSmall ? 1.5 : isMobile ? 1.8 : 2.5,
             },
             move: {
               enable: true,
-              speed: 1,
+              speed: isMobile ? 0.5 : 1,
             },
             number: {
-              value: 80,
+              value: isSmall ? 40 : isMobile ? 50 : 80,
             },
             opacity: {
-              value: 0.3,
+              value: isMobile ? 0.2 : 0.3,
             },
             size: {
-              value: { min: 2, max: 4 },
+              value: isSmall ? { min: 1, max: 2 } : isMobile ? { min: 1.5, max: 3 } : { min: 2, max: 4 },
             },
           },
           interactivity: {
@@ -51,16 +55,16 @@ export default function Home() {
                 mode: "push",
               },
               onHover: {
-                enable: true,
+                enable: !isMobile,
                 mode: "repulse",
               },
             },
             modes: {
               push: {
-                quantity: 4,
+                quantity: isMobile ? 2 : 4,
               },
               repulse: {
-                distance: 200,
+                distance: isMobile ? 100 : 200,
                 duration: 0.4,
               },
             },
@@ -121,7 +125,7 @@ export default function Home() {
 
           <div className="mt-12 flex justify-center gap-6 animate-fadeIn delay-700">
             <a 
-              href="https://github.com/yourusername" 
+              href="https://github.com/Mohamedsellak/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center justify-center w-12 h-12 rounded-full bg-purple-900/30 hover:bg-purple-700/40 text-purple-200 hover:text-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-400 transition-colors duration-300 shadow-md"
@@ -129,7 +133,7 @@ export default function Home() {
               <FaGithub size={28} />
             </a>
             <a 
-              href="https://linkedin.com/in/yourusername" 
+              href="http://linkedin.com/in/mohammed-sellak/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="flex items-center justify-center w-12 h-12 rounded-full bg-purple-900/30 hover:bg-purple-700/40 text-purple-200 hover:text-purple-400 focus:outline-none focus:ring-2 focus:ring-purple-400 transition-colors duration-300 shadow-md"

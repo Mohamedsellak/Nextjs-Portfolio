@@ -5,11 +5,11 @@ type StyleWithVar = React.CSSProperties & { '--time': string };
 
 export default function Skills() {
   return (
-    <section className="w-screen text-center p-10 bg-black" id="skills">
-      <h3 className="text-lg font-bold">My Abilities</h3>
-      <h2 className="text-4xl font-bold text-purple-700">My Skills</h2>
+    <section className="w-screen text-center p-4 sm:p-6 md:p-10 bg-black" id="skills">
+      <h3 className="text-sm sm:text-base md:text-lg font-bold">My Abilities</h3>
+      <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-purple-700">My Skills</h2>
 
-      <div className="flex items-center justify-center mt-24">
+      <div className="flex items-center justify-center mt-8 sm:mt-16 md:mt-24">
         <div>
           <div className="scroll" style={{ '--time': '20s' } as StyleWithVar}>
             <div>
@@ -72,14 +72,14 @@ export default function Skills() {
 
           <div className="scroll" style={{ '--time': '40s' } as StyleWithVar}>
             <div>
-              <span>Artificial intelligence </span>
+              <span>AI </span>
               <span>Machine Learning</span>
               <span>Deep Learning</span>
               <span>CNN</span>
               <span>NLP</span>
             </div>
             <div>
-              <span>Artificial intelligence </span>
+              <span>AI </span>
               <span>Machine Learning</span>
               <span>Deep Learning</span>
               <span>CNN</span>
