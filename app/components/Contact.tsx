@@ -16,7 +16,7 @@ export default function Contact() {
 
                       <h3 className="font-bold text-xl">Email</h3>
 
-                      <span className="contact_card-data">Mohamed._.sellak@hotmail.com</span>
+                      <span className="contact_card-data">Mohammed.sellak@hotmail.com</span>
 
                       <a href="mailto:Mohamed._.sellak@hotmail.com" className="flex items-center justify-center gap-3 text-purple-700 mt-4">
                           Write Me <i className="fas fa-arrow-alt-circle-right"></i>
