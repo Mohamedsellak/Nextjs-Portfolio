@@ -3,7 +3,7 @@ export interface Project {
     title: string;
     description: string;
     technologies: string[];
-    category: 'web' | 'mobile' | 'design' | 'ai' | 'cybersecurity';
+    category: 'web' | 'mobile' | 'design';
     liveLink?: string;
     githubLink?: string;
     images: string[];
@@ -12,10 +12,26 @@ export interface Project {
 export const projects: Project[] = [
     {
         id: 1,
+        title: "HealthGuard Vision – AI Preventive Health Screening",
+        description: "Mobile health screening application that uses artificial intelligence to analyze photographs of eyes, skin, and nails — detecting early indicators of diabetes, nutritional deficiencies, and anemia. Features smart camera capture, color-coded severity results with AI confidence scores, scan history tracking, and secure JWT authentication. Built as an M1 academic project (2025–2026).",
+        technologies: ["React Native", "Expo", "TypeScript", "Flask", "TensorFlow", "MongoDB", "Azure", "JWT"],
+        category: "mobile",
+        githubLink: "https://github.com/TimLaum/health-guard",
+        images: [
+            "/healthguard/1.PNG",
+            "/healthguard/2.PNG",
+            "/healthguard/3.PNG",
+            "/healthguard/4.PNG",
+            "/healthguard/5.PNG",
+            "/healthguard/6.PNG"
+        ]
+    },
+    {
+        id: 2,
         title: "Cyber X Radar – Advanced Threat Detection Platform",
         description: "A comprehensive real-time cybersecurity platform that monitors dark web activities, data breaches, and vulnerabilities. Provides complete digital risk visibility for organizations with advanced threat intelligence and automated incident response capabilities.",
         technologies: ["PHP", "Next.js", "Tailwind CSS", "REST API", "MySQL", "JavaScript", "HTML5", "CSS3"],
-        category: "cybersecurity",
+        category: "web",
         liveLink: "https://scan.cyberxradar.com/",
         githubLink: "https://github.com/Mohamedsellak/cyber-x-radar",
         images: [
@@ -43,11 +59,11 @@ export const projects: Project[] = [
     },
 
         {
-            id: 2,
+            id: 3,
             title: "Pentest GPT – AI-Powered Pentesting Platform",
             description: "Developed an AI-powered pentesting web application leveraging LLaMA 3, fine-tuned on cybersecurity data, to automate website scans and analyze vulnerabilities. Delivered intelligent recommendations and actionable guidance, helping users remediate security issues efficiently. Integrated a chat-based interface for real-time interaction and consultation on security findings.",
             technologies: ["Next.js", "Node.js", "Express.js", "Tailwind CSS", "MongoDB", "Linux pentest tools", "LLaMA 3", "AI/ML"],
-            category: "cybersecurity",
+            category: "web",
             liveLink: "https://pentestgpt.com",
             githubLink: "https://github.com/Mohamedsellak/Pentest-Tools-Client",
             images: [
@@ -73,11 +89,11 @@ export const projects: Project[] = [
         },
 
     {
-        id: 3,
+        id: 4,
         title: "Edufacilita – AI-Powered Math Learning Platform",
         description: "Revolutionary educational platform featuring 5,000+ AI-curated mathematics questions with advanced search capabilities and LaTeX rendering. Currently used by educators across 50+ countries, providing personalized learning experiences and comprehensive analytics.",
         technologies: ["Laravel", "PHP", "MathJax", "LaTeX", "MathType", "MySQL", "JavaScript", "Tailwind CSS"],
-        category: "ai",
+        category: "web",
         liveLink: "https://edufacilita.com.br",
         githubLink: "https://github.com/Mohamedsellak/Edufacilita",
         images: [
@@ -99,7 +115,7 @@ export const projects: Project[] = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         title: "AI Translator - Go Translate",
         description: "Comprehensive AI-powered translation application supporting 100+ languages. Features voice translation, image text recognition, document translation, and real-time conversation mode. Built with advanced machine learning for accurate and contextual translations.",
         technologies: ["Swift", "iOS SDK", "Core ML", "Vision API", "Speech Recognition", "Google Translate API"],
@@ -116,7 +132,7 @@ export const projects: Project[] = [
         ]
     },
     {
-        id: 5,
+        id: 6,
         title: "NextTrade - Advanced Trading Platform",
         description: "Professional cryptocurrency and stock trading platform with real-time market data, advanced charting tools, portfolio management, and automated trading strategies. Features secure transactions, multi-wallet support, and comprehensive analytics dashboard.",
         technologies: ["Next.js", "TypeScript", "Node.js", "WebSocket", "MongoDB", "Redis", "Chart.js", "Crypto Payment API"],
@@ -144,7 +160,7 @@ export const projects: Project[] = [
         ]
     },
     {
-        id: 6,
+        id: 7,
         title: "Mr. Basit's Authentic Moroccan Crafts",
         description: "Premium e-commerce platform showcasing authentic Moroccan handicrafts and traditional artistry. Features secure payment processing, inventory management, international shipping, and cultural storytelling to connect customers with Moroccan heritage.",
         technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Stripe", "MongoDB", "Node.js"],
@@ -160,7 +176,7 @@ export const projects: Project[] = [
         ]
     },
     {
-        id: 7,
+        id: 8,
         title: "TechStore - Premium Technology Marketplace",
         description: "Sophisticated French e-commerce platform specializing in premium technology products. Serves 50,000+ satisfied customers across 15+ countries with 24/7 support. Features advanced product filtering, AR product visualization, and comprehensive customer service system.",
         technologies: ["Next.js", "Supabase", "PostgreSQL", "Tailwind CSS", "TypeScript", "Stripe API"], 
@@ -175,5 +191,5 @@ export const projects: Project[] = [
             "/tech store/5.png",
             "/tech store/6.png"
         ]
-    }
+    },
 ];
