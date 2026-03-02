@@ -1,28 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-
-  --animate-fadeIn: fadeIn 1s ease-in;
-  --animate-slideDown: slideDown 1s ease-out;
-  --animate-slideUp: slideUp 1s ease-out;
-
-  @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-  }
-
-  @keyframes slideDown {
-    0% { transform: translateY(-20px); opacity: 0; }
-    100% { transform: translateY(0); opacity: 1; }
-  }
-
-  @keyframes slideUp {
-    0% { transform: translateY(20px); opacity: 0; }
-    100% { transform: translateY(0); opacity: 1; }
-  }
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Remove default margin and padding */
 * {
