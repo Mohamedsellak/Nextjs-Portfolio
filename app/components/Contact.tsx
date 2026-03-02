@@ -18,7 +18,7 @@ export default function Contact() {
 
                       <span className="contact_card-data">Mohammed.sellak@hotmail.com</span>
 
-                      <a href="mailto:Mohamed._.sellak@hotmail.com" className="flex items-center justify-center gap-3 text-purple-700 mt-4">
+                      <a href="mailto:Mohammed.sellak@hotmail.com" className="flex items-center justify-center gap-3 text-purple-700 mt-4">
                           Write Me <i className="fas fa-arrow-alt-circle-right"></i>
                       </a>
                   </div>
@@ -28,7 +28,7 @@ export default function Contact() {
 
                       <h3 className="font-bold text-xl">WhatsApp</h3>
 
-                      <span className="contact_card-data">+212 696 165 421</span>
+                      <span className="contact_card-data">+33 746 422 643</span>
 
                       <a href="https://wa.me/qr/I6Q5NTXFMJYRO1" target="_blank" className="flex items-center justify-center gap-3 text-purple-700 mt-4">
                           Write Me <i className="fas fa-arrow-alt-circle-right"></i>
